@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background: white(224, 217, 217);
+}
+
+.main {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    /* transform: translate(50%, 50%); */
+    width: 550px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 420px;
+    border-top-right-radius: 10px;
+}
+
+.img img {
+    width: 270px;
+    height: 420px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.second {
+    width: 280px;
+    height: 420px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.first {
+    height: 18px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    font-size: 38px;
+    line-height: 90%;
+    font-weight: bold;
+}
+
+.body span {
+    height: 100px;
+}
+
+.first p{
+    display: inline-block; 
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    color: rgb(109, 107, 107); 
+    /* transform: scaleX(1.5); */
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.third {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(109, 107, 107); 
+    font-size: 14px;
+}
+
+.forth {
+    font-size: 20px;
+    position: relative;
+}
+
+.forth-p {
+    display: inline;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(31, 95, 31);
+}
+
+.forth-pp {
+    text-decoration: line-through;
+    font-size: 15px;
+    color: rgb(73, 71, 71); 
+    font-weight: 20;
+    margin-left: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    background: rgba(228, 220, 220, 0.704);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.05);
+}
+
+.button button {
+    position: relative;
+    width: 95%;
+    background: green;
+    color: white;
+    height: 40px;
+    padding: auto;
+    outline: none;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button button:hover {
+    cursor: pointer;
+    background: rgb(31, 95, 31);
+}
+
+.button span {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button img {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button-text {
+    padding: auto;
+    width: 30px;
+}
